@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+dialog {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+dialog::backdrop {
+  /* background-color: red; */
+}
